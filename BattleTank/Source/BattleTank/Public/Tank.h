@@ -41,7 +41,7 @@ private:
 	UPROPERTY(EditAnywhere, Category = Firing)
 	float LaunchSpeed = 4000; // TODO Find sensible default
 	
-	UPROPERTY(EditAnywhere, Category = Setup)
+	UPROPERTY(EditDefaultsOnly, Category = Setup)
 	TSubclassOf<AProjectile> ProjectileBlueprint;
 	
 	UTankBarrel* Barrel = nullptr; // Local Barrel reference for spawning proejctile

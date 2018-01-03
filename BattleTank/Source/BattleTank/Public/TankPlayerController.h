@@ -22,9 +22,9 @@ private:
 	// the crosshair intersects the world
 	void AimTowardsCrosshair();
 	bool GetSightRayHitLocation(FVector &HitLocation) const;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditDefaultsOnly)
 	float CrosshairXLocation = 0.5f;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditDefaultsOnly)
 	float CrosshairYLocation = 0.33333f;
 	UPROPERTY(EditAnywhere)
 	float LineTraceRangeParameter = 1000000.0f;
